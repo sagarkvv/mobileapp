@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mobileapp_1687237623166-pr-trigger-input-set
+  identifier: Build_mobileapp_1687237623166prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mobileapp_1687237623166
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
