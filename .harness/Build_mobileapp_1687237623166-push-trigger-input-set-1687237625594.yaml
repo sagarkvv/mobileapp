@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mobileapp_1687237623166-push-trigger-input-set
+  identifier: Build_mobileapp_1687237623166pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mobileapp_1687237623166
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
